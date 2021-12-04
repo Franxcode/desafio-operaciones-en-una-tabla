@@ -63,22 +63,22 @@ CREATE TABLE comments(
 -- INSERT 2 COMMENTS FOR THE POST OF Pamela AND 4 FOR Carlos POST.
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04','Contenido comentario post Pamela 1.', 1);
+('2021-12-04 16:05:00','Contenido comentario post Pamela 1.', 1);
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04','Contenido comentario post Pamela 2.', 1);
+('2021-12-04 18:05:00','Contenido comentario post Pamela 2.', 1);
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04','Contenido comentario post Carlos 1.', 6);
+('2021-12-04 17:05:00','Contenido comentario post Carlos 1.', 6);
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04','Contenido comentario post Carlos 2.', 6);
+('2021-12-04 15:05:00','Contenido comentario post Carlos 2.', 6);
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04','Contenido comentario post Carlos 3.', 6);
+('2021-12-04 13:05:00','Contenido comentario post Carlos 3.', 6);
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04','Contenido comentario post Carlos 4.', 6);
+('2021-12-04 14:05:00','Contenido comentario post Carlos 4.', 6);
 
 -- CREATE A NEW POST FOR Margarita
 
@@ -88,16 +88,16 @@ INSERT INTO posts(id, nombre_de_usuario, fecha_de_creacion, contenido, descripci
 -- CREATE 5 COMMENTS FOR Margarita's POST.
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04', 'Contenido comentario post Margarita 1.', 7);
+('2021-12-04 16:05:00', 'Contenido comentario post Margarita 1.', 7);
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04', 'Contenido comentario post Margarita 2.', 7);
+('2021-12-04 16:06:00', 'Contenido comentario post Margarita 2.', 7);
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04', 'Contenido comentario post Margarita 3.', 7);
+('2021-12-04 17:05:00', 'Contenido comentario post Margarita 3.', 7);
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04', 'Contenido comentario post Margarita 4.', 7);
+('2021-12-04 17:05:20', 'Contenido comentario post Margarita 4.', 7);
 
 INSERT INTO comments(fecha_hora_creacion, contenido, post_id) VALUES
-('2021-12-04', 'Contenido comentario post Margarita 5.', 7);
+('2021-12-04 17:05:30', 'Contenido comentario post Margarita 5.', 7);
